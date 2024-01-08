@@ -1,0 +1,127 @@
+
+   
+   *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: popins sans-serif;}
+    body{
+    background-color: #041722;
+    color: aliceblue;
+   }
+   .imp{position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-content: center ;
+    z-index: 1;
+}
+.head{
+    font-size: 25px;
+    font-weight: 500;
+    color:white;
+    text-decoration: none;
+}
+
+
+.bar a {
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: 500;
+    text-decoration:none ;
+    margin-left: 30px;
+    transition: .3s;
+}
+.bar .home{
+    color: #09659e;
+}
+.bar .home:hover{
+    color: aliceblue;
+}
+.bar a:hover{
+    color: #09659e;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    padding: 0% 10%;
+    align-items: center;
+}
+.red{
+    max-width: 350px;
+}
+.red h1{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.red h3{
+    font-size :25px; 
+    font-weight: 400;
+    color: rgb(0, 136, 255);
+}
+.red p{
+    font-size: 15px;
+    margin: 20px 0 10px;
+}
+.red .btn-box{
+    display: flex;
+    justify-content: space-between;
+    height: 50px ;
+    width: 345px 
+}
+.btn-box a{
+    width: 150px;
+    height: 100%;
+    background-color: rgb(0, 81, 255);
+    color: aliceblue;
+    border: 2px solid;
+    border-radius: 8%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn-box a:nth-child(2){
+    background-color: transparent;
+    color: rgb(0, 170, 255);
+}
+.btn-box a:hover{ 
+    color: black;
+}
+.btn-box a:nth-child(2):hover{
+    color: aliceblue;
+}
+.link{
+    position: absolute;
+    width: 170px;
+    bottom: 40px ;
+    display:flex ;
+    justify-content: space-between;
+}
+.link a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border: 2px solid #09659e;
+    border-radius: 50%;
+    color: #09659e;
+
+
+}
+@media (min-width: 300px) and (max-width: 400px) { .bar > a{
+    display: inline-flex;
+}
+   
+}
